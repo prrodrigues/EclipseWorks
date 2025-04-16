@@ -159,5 +159,5 @@ services:
 ---
 
 ## Contato
-Desenvolvido por Paulo Rodrigues
-Para mais informações, e-mail para p.roberto.rodrigues@gmai.com.
+Desenvolvido por Paulo Rodrigues.
+Para mais informações, contate consultoria.

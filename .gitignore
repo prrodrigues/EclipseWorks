@@ -1,0 +1,7 @@
+**/*.Identifier
+**/*.dll
+*.dll
+**/Debug/*
+**/*.exe
+*.exe
+

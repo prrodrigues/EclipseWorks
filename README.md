@@ -138,7 +138,7 @@ services:
   api:
     build: .
     ports:
-      - "5000:80"
+      - "5000:8080"
     depends_on:
       - postgres
     environment:
@@ -149,9 +149,9 @@ services:
     image: postgres:15
     restart: always
     environment:
-      POSTGRES_DB: taskmanagerdb
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: taskmanagerdb
     ports:
       - "5432:5432"
 ```
